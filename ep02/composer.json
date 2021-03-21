@@ -1,0 +1,23 @@
+{
+  "name": "robsonvleite/phptips002",
+  "description": "Abstração de Banco de Dados com Data Layer | PHP Tips #002",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Robson V. leite",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.2"
+  }
+}
