@@ -9,9 +9,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
-      <executable />
+      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="c20bcbde-2f3e-4c05-b9b1-589313cef5da" />
     </execution>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1q4uGgzpp66ipAOeR62BSSL3K8d" />
   <component name="PropertiesComponent">
@@ -40,6 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616351089046</updated>
       <workItem from="1616351090284" duration="6000" />
+      <workItem from="1616351117176" duration="1171000" />
     </task>
     <servers />
   </component>

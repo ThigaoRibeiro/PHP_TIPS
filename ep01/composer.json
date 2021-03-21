@@ -1,12 +1,27 @@
 {
-  "name": "vendor_name/package_name",
-  "description": "description_text",
+  "name": "robsonvleite/phptips001",
+  "description": "Conhecendo o Composer e Configurando IDE | PHP Tips #001",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
-      "name": "author's name",
+      "name": "Robson V Leite",
       "email": "email@example.com"
     }
-  ]
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+
+  },
+  "autoload": {
+      "psr-4": {
+        "Source\\": "source/"
+      },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "phpmailer/phpmailer": "6.3.0"
+  }
 }
